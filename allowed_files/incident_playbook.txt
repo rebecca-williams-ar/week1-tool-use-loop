@@ -1,0 +1,26 @@
+ACME Corp Security Incident Response Playbook — v1.4
+
+SEVERITY LEVELS
+P1 — Critical: Active breach, data exfiltration, ransomware. Immediate response.
+P2 — High: Suspected compromise, unauthorized access attempt. 2-hour SLA.
+P3 — Medium: Policy violation, phishing attempt (no click). 24-hour SLA.
+P4 — Low: Suspicious but unconfirmed activity. 72-hour SLA.
+
+P1 RESPONSE STEPS
+1. Notify security@acme.com AND call the 24/7 hotline: ext. 4911
+2. Isolate affected systems from the network (do not power off)
+3. Preserve all logs — do not clear, rotate, or delete
+4. Do not communicate details over potentially compromised channels
+5. Engage legal counsel if PII or regulated data is involved
+6. Document all actions taken with timestamps
+
+PHISHING RESPONSE
+1. Do not click links or open attachments
+2. Forward the email as an attachment to phishing@acme.com
+3. Delete from inbox after forwarding
+4. If you clicked a link: treat as P2 — report immediately
+
+POST-INCIDENT
+Root cause analysis required for all P1 and P2 incidents.
+RCA document due within 5 business days of resolution.
+Lessons learned reviewed in monthly security meeting.

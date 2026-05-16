@@ -1,0 +1,25 @@
+ACME Corp Information Security Policy — v2.1
+
+1. ACCESS CONTROL
+   All systems require MFA. Shared credentials are prohibited.
+   Access is granted on least-privilege basis and reviewed quarterly.
+
+2. DATA CLASSIFICATION
+   Confidential: PII, financial records, API keys, credentials.
+   Internal: Business processes, employee data, product roadmaps.
+   Public: Marketing materials, published documentation.
+
+3. INCIDENT RESPONSE
+   Report suspected breaches to security@acme.com within 1 hour.
+   Do not attempt self-remediation on compromised systems.
+   Preserve logs — do not power off affected machines.
+
+4. ACCEPTABLE USE
+   Company systems are for business purposes only.
+   Personal cloud storage (Dropbox, personal Google Drive) is prohibited
+   for storing company data.
+
+5. API AND CREDENTIAL MANAGEMENT
+   All API keys stored in approved secret management systems only.
+   Keys rotated every 90 days or immediately upon suspected exposure.
+   No credentials in source code, ever.

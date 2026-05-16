@@ -1,0 +1,23 @@
+ACME Corp New Employee Onboarding Guide
+
+WEEK 1 CHECKLIST
+- Complete I-9 and direct deposit forms with HR (submit by day 2)
+- Enroll in MFA for all company accounts (required before system access)
+- Complete Security Awareness Training in the LMS (due by end of week 1)
+- Request access to required systems via the IT Service Desk ticket portal
+- Meet with your manager to review your 30/60/90 day plan
+
+IT SETUP
+Your laptop will be provisioned by IT on day 1.
+Do not install software without an approved IT Service Desk ticket.
+VPN is required for all remote access to internal systems.
+
+BENEFITS ENROLLMENT
+Open enrollment window: first 30 days of employment.
+Health, dental, vision, and 401k elections made in Workday.
+Contact benefits@acme.com with questions.
+
+CONTACTS
+IT Help Desk: helpdesk@acme.com | ext. 4357
+HR: hr@acme.com | ext. 4400
+Security: security@acme.com | ext. 4911

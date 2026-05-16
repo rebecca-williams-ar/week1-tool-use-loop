@@ -1,0 +1,12 @@
+ACME Corp IT Setup Checklist
+(Derived from the New Employee Onboarding Guide)
+
+[ ] Laptop will be provisioned by IT on Day 1 — check with IT Help Desk if not received.
+[ ] Enroll in MFA (Multi-Factor Authentication) for all company accounts before accessing any systems.
+[ ] Request access to required systems via the IT Service Desk ticket portal.
+[ ] Do NOT install any software without an approved IT Service Desk ticket.
+[ ] Set up and connect to VPN — required for all remote access to internal systems.
+[ ] Complete Security Awareness Training in the LMS by end of Week 1.
+
+CONTACT
+IT Help Desk: helpdesk@acme.com | ext. 4357
