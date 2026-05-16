@@ -3,3 +3,4 @@ audit.log
 __pycache__/
 *.pyc
 SimpleNestLabels_archive.txt
+SECURITY_RULES.md

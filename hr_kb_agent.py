@@ -23,16 +23,15 @@ from pathlib import Path
 import anthropic
 from dotenv import load_dotenv
 
+from secrets import get_secret
+
 # ---------------------------------------------------------------------------
-# SECURITY: Load credentials from .env — fail loudly if missing.
-# Never fall back to a default or continue without a key.
+# SECURITY: Load .env first, then retrieve credentials through secrets.py.
+# All secret access is centralized there — to migrate to a real secrets
+# manager (GCP, AWS, Vault), only secrets.py needs to change.
 # ---------------------------------------------------------------------------
 load_dotenv()
-API_KEY = os.environ.get("ANTHROPIC_API_KEY")
-if not API_KEY:
-    raise EnvironmentError(
-        "ANTHROPIC_API_KEY not found. Copy .env.example to .env and set your key."
-    )
+API_KEY = get_secret("ANTHROPIC_API_KEY")
 
 # ---------------------------------------------------------------------------
 # SECURITY: Define the sandbox. The agent may only read files inside this
